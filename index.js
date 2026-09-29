@@ -24,7 +24,7 @@ intents: [
 // CONFIG
 // =========================
 
-const TOKEN = "din bot token";
+const TOKEN = process.env.TOKEN;
 
 const TICKET_CATEGORY_ID = "1554238724064415854";
 
