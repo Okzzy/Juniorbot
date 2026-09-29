@@ -25,6 +25,7 @@ intents: [
 // =========================
 
 const TOKEN = process.env.TOKEN;
+console.log("ENV KEYS:", Object.keys(process.env));
 console.log("TOKEN EXISTS:", !!process.env.TOKEN);
 console.log("TOKEN LENGTH:", process.env.TOKEN?.length);
 
