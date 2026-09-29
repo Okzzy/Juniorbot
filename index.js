@@ -25,6 +25,8 @@ intents: [
 // =========================
 
 const TOKEN = process.env.TOKEN;
+console.log("TOKEN EXISTS:", !!process.env.TOKEN);
+console.log("TOKEN LENGTH:", process.env.TOKEN?.length);
 
 const TICKET_CATEGORY_ID = "1554238724064415854";
 
